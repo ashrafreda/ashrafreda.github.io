@@ -5,7 +5,7 @@ require_once('php/simple-php-captcha/simple-php-captcha.php');
 require_once('php/php-mailer/PHPMailerAutoload.php');
 
 // Step 1 - Enter your email address below.
-$email = 'you@domain.com';
+$email = 'ashraf.reda.m@gmail.com';
 
 // If the e-mail is not working, change the debug option to 2 | $debug = 2;
 $debug = 0;
@@ -103,7 +103,12 @@ if(isset($_POST['emailSent'])) {
 }
 ?>
 <!DOCTYPE html>
-<!-- devcode: !production --><html><!-- endcode --><!-- devcode: production --><html><!-- endcode -->
+<!-- devcode: !production -->
+<html>
+<!-- endcode -->
+<!-- devcode: production -->
+<html>
+<!-- endcode -->
 	<head>
 
 		<!-- Basic -->
